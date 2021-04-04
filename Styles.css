@@ -1,0 +1,43 @@
+*{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0; /* Remove the default margin in browser (100% fit on the viewport)*/
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hlink{
+    text-align: right;
+    color: black;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.hlink > a{
+text-decoration: none;
+}
+
+.hlink > a:hover{
+    text-decoration: underline;
+}
+
+#image {
+    margin-right: 25px;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
