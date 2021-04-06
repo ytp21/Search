@@ -40,11 +40,13 @@ body{
 
 .Google-image{
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 .search-bar{
     padding: 20px;
     width: 620px;
+    position: relative;
 }
 
 .search-bar > .bar{
@@ -53,15 +55,55 @@ body{
     height: 45px;
     width: 100%;
     padding-left: 45px;
-    padding-right: 20px;
+    padding-right: 50px;
     background-image: url("Search-Icon.png");
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: 15px 15px;
 }
 
+.search-bar > .image-search-right-padding {
+    padding-right: 90px!important;
+}
+
+.image-search-button-blue{
+    position: absolute;
+    top: 29px;
+    right: 35px;
+    border: none;
+    background: url(Blue-Search.png);
+    background-size: 25px 25px;
+    height: 25px;
+    width: 25px;
+    outline: none;
+}
+
+.vertical-line{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+}
+
+.search-cross-padding{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.image-search-cross-padding{
+    position: absolute;
+    top: 28px;
+    right: 75px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
 .search-bar > .bar:hover, .search-bar > .bar:focus{
-    box-shadow: 0px 0px 8px #DCDCDC;
+    box-shadow: 0px 0px 8px #D3D3D3;
     outline: none;
 }
 

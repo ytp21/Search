@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Google Search</title>
+        <title>Google Images</title>
         <link rel="icon" type="image/png" href="Google-Icon.png">
         <link rel="stylesheet" href="Styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -11,19 +11,16 @@
     </head>
     <body>
         <header class="header-link">
-            <a id=image-link href="Image.html">Google Images Search</a>
-            <a id=advance-link href="">Google Advanced Search</a>
+            <a id=search-link href="Index.html">Google Search</a>
         </header>
         <div class="main">
-            <form action="https://google.com/search">
-                <img class="Google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google">
+            <form action="https://google.com/images" method="get">
+                <img class="Google-image" src="Google-Images-Logo.png" alt = "Google" height="120px" width="300px">
                 <div class="search-bar">
-                    <input class="bar" type="text" name="q">
-                    <input class="material-icons search-cross-padding" type="reset" value="close">
-                </div>
-                <div class="inputs">
-                    <input class="button" type="submit" name="btnG" value="Google Search">
-                    <input class="button" type="submit" name="btnI" value="I'm Feeling Lucky">
+                    <input class="bar image-search-right-padding" type="text" name="q">
+                    <input class="image-search-button-blue" type="submit" value="" >
+                    <input class="material-icons image-search-cross-padding" type="reset" value="close">
+                    <img class="vertical-line" src="Vertical-Line.PNG">
                 </div>
             </form>
         </div>
