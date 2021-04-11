@@ -201,6 +201,7 @@ html, body{
     width: 50%!important;
     margin-top: -5px!important;
     font-size: 14px;
+    padding: auto;
 }
 
 .text-box:active, .text-box:focus{
