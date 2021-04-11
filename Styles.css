@@ -2,7 +2,7 @@ html, body{
     height: 100%;
 }
 
-body{
+.content{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,12 +18,12 @@ body{
     margin-bottom: 20px;
 }
 
-.header-link > a{
+.header-link > a, .advance-search-margin{
     text-decoration: none;
     color: black;
 }
 
-.header-link > a:hover{
+.header-link > a:hover, .advance-search-margin:hover{
     text-decoration: underline;
     color: black;
 }
@@ -136,3 +136,100 @@ body{
     border-color: blue;
 }
 
+.advance-search-header-style{
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px!important;
+}
+
+.advance-image-margin{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.advance-search-margin{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.advance-search-title{
+    padding-left: 40px!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e60000;
+    font-size: 20px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.S1{
+    font-size: 17px;
+    padding-left: 40px!important;
+    padding-top: 20px;
+    width: 100px;
+}
+
+.S2{
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #888888!important;
+}
+
+.S3{
+    font-size: 14px!important;
+    padding-left: 40px!important;
+}
+
+.S4{
+    font-size: 11px!important;
+}
+
+.row-height-1{
+    height: 30px;
+}
+
+.row-height-2{
+    height: 60px;
+}
+
+.text-box{
+    border: 1.5px solid #D3D3D3;
+    outline: none;
+    height: 30px;
+    width: 50%!important;
+    margin-top: -5px!important;
+    font-size: 14px;
+}
+
+.text-box:active, .text-box:focus{
+    border-color: dodgerblue;
+}
+
+.consolas-style{
+    font-family: consolas;
+}
+
+.blue-botton-style{
+    font-size: 12px!important;
+    font-weight: bold!important;
+    height: 32px!important;
+    width: 130px!important;
+    border-radius: 2px;
+    border: 3px solid #267EE8;
+    color: white;
+    background-color: #267EE8;
+    outline-width: thin;
+    float: right;
+    padding: auto;
+}
+
+.blue-botton-style:hover{
+    background-color: #0B6FE6;
+    border-color: #0B6FE6;
+}
+
+.blue-botton-style:active, .blue-botton-style:focus{
+    border-color: white;
+}
